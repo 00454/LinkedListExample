@@ -9,7 +9,8 @@ void Init (List& L)
 
 bool IsEmpty (List L)
 {return (L == NULL); }
-  
+ 
+ /* list value */ 
 void Insert (DataType e, List& L)
 {List NewNode = new node;
   NewNode->data = e;
